@@ -9,6 +9,7 @@ int promptForDisks()
 	std::string numDisks;
 	std::cin >> numDisks;
 	return stringToInteger(numDisks);
+	//TODO: check input is valid
 }
 
 //Misnomer; gets user input for starting peg
@@ -18,6 +19,7 @@ int promptStartingDisk()
 	std::string startingPeg;
 	std::cin >> startingPeg;
 	return stringToInteger(startingPeg);
+	//TODO: Check input is valid
 }
 
 //constructs a disk object and adds them to the diskVec vector; returns diskVec
